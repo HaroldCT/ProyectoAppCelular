@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".login.ui.LoginActivity">
+
+    <TextView
+        android:id="@+id/idTitleApp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/app_title"
+        android:textSize="35sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginTop="50dp"/>
+
+    <EditText
+        android:id="@+id/inputUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTitleApp"
+        android:background="@color/purple_ligth"
+        android:layout_marginTop="60dp"
+        android:padding="20dp"
+        android:hint="@string/hint_username"
+        android:textColorHint="@color/white"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:drawableStart="@drawable/outline_account_box_24"
+        android:drawablePadding="20dp"
+        />
+
+    <EditText
+        android:id="@+id/inputPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputUserName"
+        android:background="@color/purple_ligth"
+        android:layout_marginTop="35dp"
+        android:padding="20dp"
+        android:hint="@string/hint_password"
+        android:textColorHint="@color/white"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:drawableStart="@drawable/outline_cinematic_blur_24"
+        android:drawablePadding="20dp"
+        android:inputType="textPassword"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_button"
+        android:layout_below="@id/inputPassword"
+        android:backgroundTint="@color/blue_ligth"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="40dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lblForgotPassword"
+        android:layout_below="@id/buttonLogin"
+        android:text="@string/text_forgot_password"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:layout_margin="28dp"
+        android:clickable="true"
+        android:focusable="true"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/others"
+        android:layout_above="@id/socialIcons"
+        android:layout_centerHorizontal="true"
+        android:text="O ingresa con:"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/socialIcons"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/google"/>
+        <ImageView android:layout_width="48dp" android:layout_height="48dp" android:layout_margin="20dp" android:src="@drawable/fb"/>
+        <ImageView android:layout_width="48dp" android:layout_height="48dp" android:layout_margin="20dp" android:src="@drawable/twitter"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

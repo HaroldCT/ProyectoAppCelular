@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".HomeActivity">
+    
+    <View
+        android:id="@+id/idTopView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/background_view"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/idTopView"
+        android:rowCount="4"
+        android:columnCount="2"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="-130dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/idCardShowUsers"
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="50dp"
+            android:layout_margin="12dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            app:cardBackgroundColor="@android:color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/idImageShowUsers"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/outline_contacts_product_24"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:id="@+id/idTextShowUsers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ver Usuarios"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/idCardCreateUsers"
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="50dp"
+            android:layout_margin="12dp"
+            android:layout_row="0"
+            android:layout_column="1"
+            app:cardBackgroundColor="@android:color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/idImageCreateUsers"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/outline_contacts_product_24"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:id="@+id/idTextCreateUsers"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Crear Usuario"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/idCardViewObject1"
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="50dp"
+            android:layout_margin="12dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            app:cardBackgroundColor="@android:color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/idImageViewObject1"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/outline_contacts_product_24"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:id="@+id/idTextViewObject1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ver Objeto 1"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/idCardCreateObject1"
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="50dp"
+            android:layout_margin="12dp"
+            android:layout_row="1"
+            android:layout_column="1"
+            app:cardBackgroundColor="@android:color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/idImageCreateObject1"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/outline_contacts_product_24"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:id="@+id/idTextCreateObject1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Crear Objeto 1"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/idCardViewObject2"
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="50dp"
+            android:layout_margin="12dp"
+            android:layout_row="2"
+            android:layout_column="0"
+            app:cardBackgroundColor="@android:color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/idImageViewObject2"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/outline_contacts_product_24"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:id="@+id/idTextViewObject2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ver Objeto 2"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/idCardCreateObject2"
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="50dp"
+            android:layout_margin="12dp"
+            android:layout_row="2"
+            android:layout_column="1"
+            app:cardBackgroundColor="@android:color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/idImageCreateObject2"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/outline_contacts_product_24"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:id="@+id/idTextCreateObject2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Crear Objeto 2"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/idCardLogOut"
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="50dp"
+            android:layout_margin="12dp"
+            android:layout_row="3"
+            android:layout_column="0"
+            app:cardBackgroundColor="@android:color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/idImageLogOut"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/outline_contacts_product_24"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:id="@+id/idTextLogOut"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Info"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/idCardSalir"
+            android:layout_width="150dp"
+            android:layout_height="140dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="50dp"
+            android:layout_margin="12dp"
+            android:layout_row="3"
+            android:layout_column="1"
+            app:cardBackgroundColor="@android:color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
+                    android:id="@+id/idImageInfoDev"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/outline_contacts_product_24"
+                    android:layout_gravity="center"/>
+                <TextView
+                    android:id="@+id/idTextInfoDev"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Salir"
+                    android:layout_gravity="center"
+                    android:textSize="18sp"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/idUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dashboard"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">EjerciciosDidacticos</string>
+    <string name="app_title">Ingreso al sistema</string>
+    <string name="app_title_form_users">Formulario de usuarios</string>
+    <string name="hint_username">Ingrese el nombre de usuario</string>
+    <string name="hint_password">Ingrese la contraseña</string>
+    <string name="text_button">Aceptar</string>
+    <string name="text_button_back">Volver</string>
+    <string name="text_forgot_password">¿Olvidó su contraseña?</string>
+    <string name="patient_title">Agregar paciente</string>
+    <string name="hint_namePatient">Ingrese el nombre del paceinte</string>
+    <string name="hint_idPatient">Ingrese el id del paciente</string>
+    <string name="hint_sexPatient">Ingrese el sexo del paciente (M/F)</string>
+    <string name="hint_addressPatient">Ingrese la direccion del paciente</string>
+    <string name="hint_phonePatient">Ingrese el telefono del paciente</string>
+    <string name="hint_emailPatient">Ingrese el correo electronico del paciente</string>
+    <string name="hint_tittleRegisterUser">Registro de Usuarios</string>
+    <string name="btn_register"> Registrar </string>
+    <string name="hint_namePatientCard">Nombre de Paciente</string>
+    <string name="hint_idPatientCard">Id</string>
+    <string name="hint_sexPatientCard">Sexo</string>
+    <string name="hint_addressPatientCard">Direccion</string>
+    <string name="hint_phonePatientCard">Telefono</string>
+    <string name="hint_emailPatientCard">Correo Electronico</string>
+    <string name="hint_tittleMedicalRecord">Formulario de Historia Clinica</string>
+    <string name="hint_idMedicalRecord"> Ingrese el id de la historia clinica</string>
+    <string name="hint_idPatientMedicalRecord"> Ingrese el id del paciente</string>
+    <string name="hint_dateMedicalRecord"> Ingrese la fecha (dd/mm/aaaa)</string>
+    <string name="hint_symptomsMedicalRecord"> Ingrese los sintomas del paciente</string>
+    <string name="hint_diagnosisMedicalRecord"> Ingrese la diagnostico del paciente</string>
+
+</resources>
