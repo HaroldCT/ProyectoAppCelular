@@ -44,7 +44,7 @@ class FormUserActivity : AppCompatActivity() {
 
         this.binding.buttonBack.setOnClickListener {
             if(operationType.equals("CREATE")){
-                val intent = Intent(this, IntroActivity::class.java)
+                val intent = Intent(this, HomeActivity::class.java)
                 startActivity(intent)
             }else{
                 val intent = Intent(this, ShowUserActivity::class.java)

@@ -44,10 +44,15 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/idRecyclerView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:padding="16dp"
+        android:clipToPadding="false"
         android:layout_marginTop="15dp"
-        app:layout_constraintTop_toBottomOf="@+id/idTopView" />
+        android:layout_marginBottom="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/idTopView"
+        app:layout_constraintBottom_toTopOf="@id/idButtonBack"
+        app:layout_constraintVertical_bias="0.0"
+        />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/idButtonBack"
@@ -55,9 +60,10 @@
         android:layout_height="60dp"
         android:layout_margin="32dp"
         android:background="@drawable/button_background_purple"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/idRecyclerView">
+        >
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
