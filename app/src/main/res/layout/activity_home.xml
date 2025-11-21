@@ -78,7 +78,7 @@
                     android:id="@+id/idImageCreateUsers"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/outline_contacts_product_24"
+                    android:src="@drawable/add_24"
                     android:layout_gravity="center"/>
                 <TextView
                     android:id="@+id/idTextCreateUsers"
@@ -118,7 +118,7 @@
                     android:id="@+id/idTextViewObject1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Ver Objeto 1"
+                    android:text="Ver Pacientes"
                     android:layout_gravity="center"
                     android:textSize="18sp"
                     android:textStyle="bold"/>
@@ -146,13 +146,13 @@
                     android:id="@+id/idImageCreateObject1"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/outline_contacts_product_24"
+                    android:src="@drawable/add_24"
                     android:layout_gravity="center"/>
                 <TextView
                     android:id="@+id/idTextCreateObject1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Crear Objeto 1"
+                    android:text="Crear Paciente"
                     android:layout_gravity="center"
                     android:textSize="18sp"
                     android:textStyle="bold"/>
@@ -180,13 +180,13 @@
                     android:id="@+id/idImageViewObject2"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/outline_contacts_product_24"
+                    android:src="@drawable/historial_24"
                     android:layout_gravity="center"/>
                 <TextView
                     android:id="@+id/idTextViewObject2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Ver Objeto 2"
+                    android:text="Ver Historial M."
                     android:layout_gravity="center"
                     android:textSize="18sp"
                     android:textStyle="bold"/>
@@ -214,13 +214,13 @@
                     android:id="@+id/idImageCreateObject2"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/outline_contacts_product_24"
+                    android:src="@drawable/add_24"
                     android:layout_gravity="center"/>
                 <TextView
                     android:id="@+id/idTextCreateObject2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Crear Objeto 2"
+                    android:text="Crear Historial.M"
                     android:layout_gravity="center"
                     android:textSize="18sp"
                     android:textStyle="bold"/>
@@ -248,7 +248,7 @@
                     android:id="@+id/idImageLogOut"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/outline_contacts_product_24"
+                    android:src="@drawable/info_24"
                     android:layout_gravity="center"/>
                 <TextView
                     android:id="@+id/idTextLogOut"
@@ -282,7 +282,7 @@
                     android:id="@+id/idImageInfoDev"
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/outline_contacts_product_24"
+                    android:src="@drawable/door_back_24"
                     android:layout_gravity="center"/>
                 <TextView
                     android:id="@+id/idTextInfoDev"
